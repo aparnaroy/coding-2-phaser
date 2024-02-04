@@ -1,1 +1,4 @@
-"@yandeu/prettier-config"
+{
+    "experimentalTernaries": true,
+    "tabWidth": 4
+}

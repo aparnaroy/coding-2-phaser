@@ -1,3 +1,7 @@
+A new version of the Phaser TypeScript starter project, with some alterations for academic contexts.
+
+Based heavily on the version by Yannick Deubel (<https://github.com/yandeu/phaser-project-template.git>).
+
 <h1 align="center">
   <br>
   <a href="https://github.com/yandeu/phaser-project-template#readme"><img src="readme/header.png" alt="header" width="600"></a>
@@ -42,15 +46,15 @@ A starter template for <a href="https://phaser.io/" target="_blank" >Phaser 3</a
 
 ## Key Features
 
-- **ESNext** features ready (async/await, Rest/Spread operators)
-- Code Splitting
-- Obfuscation
-- Development Server with SourceMap and Live-Reload
-- PWA ready with offline support and "Add to Home screen" install prompt
-- Easy to build Native App using Capacitor
-- Includes Phaser 3 TypeScript typings
-- For development and production builds
-- Adds a webpack ContentHash to the JavaScript files (in production)
+-   **ESNext** features ready (async/await, Rest/Spread operators)
+-   Code Splitting
+-   Obfuscation
+-   Development Server with SourceMap and Live-Reload
+-   PWA ready with offline support and "Add to Home screen" install prompt
+-   Easy to build Native App using Capacitor
+-   Includes Phaser 3 TypeScript typings
+-   For development and production builds
+-   Adds a webpack ContentHash to the JavaScript files (in production)
 
 ## Preview
 
@@ -106,27 +110,27 @@ Uncomment the line below inside /src/index.html to enable it.
 
 ```html
 <script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./sw.js')
-    })
-  }
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+            navigator.serviceWorker.register("./sw.js");
+        });
+    }
 </script>
 ```
 
 You can easily personalize its settings by following these steps:
 
-- Replace both icons in /pwa/icons with your own.
-  - One is **512x512** the other **192x192**
-- Add your own **favicon.ico** to /src
-- Adjust these parameters in the **manifest.json** file in /pwa
-  - **short_name**: Max. 12 characters
-  - **name**: The full game name
-  - **orientation**: "landscape" or "portrait"
-  - **background_color**: color of the splash screen
-  - **theme_color**: color of the navbar - has to match the theme-color in the index.html file
-- You can leave the **sw.js** (serviceWorker) in /pwa how it is.
-- Change the **gameName** in /webpack/webpack.common.js
+-   Replace both icons in /pwa/icons with your own.
+    -   One is **512x512** the other **192x192**
+-   Add your own **favicon.ico** to /src
+-   Adjust these parameters in the **manifest.json** file in /pwa
+    -   **short_name**: Max. 12 characters
+    -   **name**: The full game name
+    -   **orientation**: "landscape" or "portrait"
+    -   **background_color**: color of the splash screen
+    -   **theme_color**: color of the navbar - has to match the theme-color in the index.html file
+-   You can leave the **sw.js** (serviceWorker) in /pwa how it is.
+-   Change the **gameName** in /webpack/webpack.common.js
 
 Read more about PWA on [developers.google.com](https://developers.google.com/web/progressive-web-apps/)
 
@@ -139,10 +143,10 @@ The only thing you need to change after installing Capacitor is the **webDir** i
 
 ```json
 {
-  "appId": "com.example.app",
-  "appName": "YOUR_APP_NAME",
-  "bundledWebRuntime": false,
-  "webDir": "dist"
+    "appId": "com.example.app",
+    "appName": "YOUR_APP_NAME",
+    "bundledWebRuntime": false,
+    "webDir": "dist"
 }
 ```
 
@@ -180,11 +184,11 @@ Making a multiplayer game? Check out [geckos.io](https://github.com/geckosio/gec
 
 ## Useful Links
 
-- [Phaser Website](https://phaser.io/)
-- [Phaser 3 Forum](https://phaser.discourse.group/)
-- [Phaser 3 API Docs](https://photonstorm.github.io/phaser3-docs/)
-- [Official Phaser 3 Examples](http://labs.phaser.io/)
-- [Notes of Phaser 3](https://rexrainbow.github.io/phaser3-rex-notes/docs/site/index.html)
+-   [Phaser Website](https://phaser.io/)
+-   [Phaser 3 Forum](https://phaser.discourse.group/)
+-   [Phaser 3 API Docs](https://photonstorm.github.io/phaser3-docs/)
+-   [Official Phaser 3 Examples](http://labs.phaser.io/)
+-   [Notes of Phaser 3](https://rexrainbow.github.io/phaser3-rex-notes/docs/site/index.html)
 
 ## Examples
 
