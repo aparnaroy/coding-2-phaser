@@ -29,8 +29,6 @@ A starter template for <a href="https://phaser.io/" target="_blank" >Phaser 3</a
   <a href="#enable3d">enable3d</a> •
   <a href="#progressive-web-app-pwa">PWA</a> •
   <a href="#native-app">Native App</a> •
-  <a href="#custom-configurations">Custom Configurations</a> •
-  <a href="#es6">ES6</a> •
   <a href="#useful-links">Useful Links</a> •
   <a href="#multiplayer-game">Multiplayer Game</a> •
   <a href="#examples">Examples</a> •
