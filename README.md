@@ -4,7 +4,7 @@ Based heavily on the version by Yannick Deubel (<https://github.com/yandeu/phase
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/yandeu/phaser-project-template#readme"><img src="readme/header.png" alt="header" width="600"></a>
+  <a href="https://github.com/yandeu/phaser-project-template#readme"><img src="assets/readme/header.png" alt="header" width="600"></a>
   <br>
   Phaser 3 TypeScript Starter Template
   <br>
@@ -38,10 +38,6 @@ A starter template for <a href="https://phaser.io/" target="_blank" >Phaser 3</a
   <a href="#license">License</a>
 </p>
 
-<blockquote align="center">
- Want to use ES6 instead of TypeScript? Check out the <a href="https://github.com/yandeu/phaser-project-template-es6#readme" >phaser-project-template-es6</a>
-</blockquote>
-
 ---
 
 ## Key Features
@@ -61,7 +57,7 @@ A starter template for <a href="https://phaser.io/" target="_blank" >Phaser 3</a
 This is what you get after installing this template. A simple and clean starter template written in TypeScript. [Try it!](https://s3.eu-central-1.amazonaws.com/phaser3-typescript/starter-template/index.html)
 
 <a href="https://s3.eu-central-1.amazonaws.com/phaser3-typescript/starter-template/index.html">
-<img src="readme/screenshot.png" width="640" style='border: 0.25em solid #e1e4e8;border-radius: 20px;'/>
+<img src="assets/readme/screenshot.png" width="640" style='border: 0.25em solid #e1e4e8;border-radius: 20px;'/>
 </a>
 
 ## How To Use
@@ -80,33 +76,26 @@ $ npm install
 
 # Start the local development server (on port 8080)
 $ npm start
-
-# Ready for production?
-# Build the production ready code to the /dist folder
-$ npm run build
-
-# Play your production ready game in the browser
-$ npm run serve
 ```
 
-Change the **gameName** in /webpack/webpack.common.js.
+Change the **gameName** in [/webpack/webpack.common.js](/webpack/webpack.common.js).
 
-All your game code lies inside the **/src/scripts** folder. All assets need to be inside the **/src/assets** folder in order to get copied to /dist while creating the production build. Do not change the name of the index.html and game.ts files.
+All your game code lies inside the **/src** folder. All assets need to be inside the **/assets** folder in order to get copied to /dist while creating the production build. Do not change the name of the index.html and game.ts files.
 
 ## enable3d
 
-<a href="https://github.com/yandeu/enable3d#readme"><img src="readme/enable3d-logo.png" alt="enable3d logo" width="300"></a>
+<a href="https://github.com/yandeu/enable3d#readme"><img src="assets/readme/enable3d-logo.png" alt="enable3d logo" width="300"></a>
 
 Want to add 3D objects and physics to your Phaser game? Checkout [enable3d](https://github.com/yandeu/enable3d#readme)!
 
 ## Progressive Web App (PWA)
 
-![PWA](readme/pwa.png)
+![PWA](assets/readme/pwa.png)
 
 This template is **100% PWA ready**.
 
 The ServiceWorker is **disabled by default** and is configured to only work in **production mode**.  
-Uncomment the line below inside /src/index.html to enable it.
+Uncomment the line below inside /assets/index.html to enable it.
 
 ```html
 <script>
@@ -150,34 +139,6 @@ The only thing you need to change after installing Capacitor is the **webDir** i
 }
 ```
 
-## Custom Configurations
-
-### TypeScript Compiler
-
-Change the TypeScript compiler's settings in the tsconfig.json file.
-
-If you are new to TypeScript, you maybe want to set **"noImplicitAny"** to **false**.
-
-You'll find more information about the TypeScript compiler [here](https://www.typescriptlang.org/docs/handbook/compiler-options.html).
-
-### Typings
-
-You can put your custom type definitions inside typings/**custom.d.ts**.
-
-### Webpack
-
-All webpack configs are in the **webpack** folder.
-
-### Obfuscation
-
-_Obfuscation is disabled by default._
-
-We are using the [webpack-obfuscator](https://github.com/javascript-obfuscator/webpack-obfuscator). Change its settings in webpack/webpack.prod.js if needed. All available options are listed [here](https://github.com/javascript-obfuscator/javascript-obfuscator#javascript-obfuscator-options).
-
-## ES6
-
-Want to use ES6 instead of TypeScript? Switch to the [phaser-project-template-es6](https://github.com/yandeu/phaser-project-template-es6#readme)
-
 ## Multiplayer Game
 
 Making a multiplayer game? Check out [geckos.io](https://github.com/geckosio/geckos.io#readme)
@@ -208,6 +169,8 @@ Making a multiplayer game? Check out [geckos.io](https://github.com/geckosio/gec
 
 A huge thank you to Rich [@photonstorm](https://github.com/photonstorm) for creating Phaser
 
+A massive thanks to Yandeu for making the original version of this repository.
+
 ## License
 
-The MIT License (MIT) 2021 - [Yannick Deubel](https://github.com/yandeu). Please have a look at the [LICENSE](LICENSE) for more details.
+The MIT License (MIT) 2024 - [Austin Cory Bart](https://github.com/acbart). Please have a look at the [LICENSE](LICENSE) for more details.
