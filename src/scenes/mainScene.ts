@@ -1,3 +1,4 @@
+import Phaser from "phaser";
 import PhaserLogo from "../objects/phaserLogo";
 import FpsText from "../objects/fpsText";
 
