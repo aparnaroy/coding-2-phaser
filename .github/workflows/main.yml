@@ -52,7 +52,7 @@ jobs:
               run: |
                   npm install
             # TODO: Set up linter
-            # - run: npm run lint
+            - run: npm run lint
             - name: Build
               run: |
                   npm run build
